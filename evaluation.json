@@ -1,0 +1,40 @@
+{
+  "note": "New model trained from provided CSV, not original notebook fitted pipeline. Random stratified holdout; not route-independent validation.",
+  "training_rows": 284,
+  "test_rows": 71,
+  "accuracy": 0.7183,
+  "macro_f1": 0.7174,
+  "classification_report": {
+    "Low": {
+      "precision": 0.6818181818181818,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.6976744186046512,
+      "support": 21.0
+    },
+    "Moderate": {
+      "precision": 0.7407407407407407,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.7272727272727273,
+      "support": 28.0
+    },
+    "High": {
+      "precision": 0.7272727272727273,
+      "recall": 0.7272727272727273,
+      "f1-score": 0.7272727272727273,
+      "support": 22.0
+    },
+    "accuracy": 0.7183098591549296,
+    "macro avg": {
+      "precision": 0.7166105499438832,
+      "recall": 0.7186147186147186,
+      "f1-score": 0.7174066243833686,
+      "support": 71.0
+    },
+    "weighted avg": {
+      "precision": 0.719139754351022,
+      "recall": 0.7183098591549296,
+      "f1-score": 0.7185182979483667,
+      "support": 71.0
+    }
+  }
+}
